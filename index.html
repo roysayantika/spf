@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beauty Product Website</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Glow Beauty Products</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-card">
+            <img src="images/pic 1.jpg" alt="Face Cream" />
+            <h3>Hydrating Face Cream</h3>
+            <div class="product-price">Rs.399</div>
+            <p class="short-desc">Keep your skin moisturized and glowing.</p>
+            <button onclick="showDetails('details1')">More Details</button>
+            <p id="details1" class="details" style="display:none;">
+                This face cream contains natural ingredients like aloe vera and vitamin E to nourish your skin deeply.
+            </p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/pic 2.jpg" alt="Lip Balm" />
+            <h3>Natural Lip Balm</h3>
+            <div class="product-price">Rs. 199</div>
+            <p class="short-desc">Soft and smooth lips all day long.</p>
+            <button onclick="showDetails('details2')">More Details</button>
+            <p id="details2" class="details" style="display:none;">
+                Made with beeswax and shea butter, this lip balm protects and hydrates your lips naturally.
+            </p>
+        </div>
+
+		<div class="product-card">
+            <img src="images/pic 3.jpg" alt="foundation" />
+            <h3>Glow Serum foundation</h3>
+            <div class="product-price">Rs.499</div>
+            <p class="short-desc">keep your skin glowing and brightning all day long.</p>
+            <button onclick="showDetails('details3')">More Details</button>
+            <p id="details3" class="details" style="display:none;"></p>
+                serum foundation that gives an instant glow and enrich with vitamin C and turmeric.
+            </p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/pic 4.webp" alt="BB Cream" />
+            <h3>Glow Serum BB Cream </h3>
+            <div class="product-price">Rs.299</div>
+            <p class="short-desc">.</p> Keep your skin Glowing all day.
+            <button onclick="showDetails('details4')">More Details</button>
+            <p id="details4" class="details" style="display:none;">
+               Hydrating provides vitamins, sun protection and for all type skin.
+            </p>
+        </div>
+
+        <div class="product-card">
+            <img src="images/pic 5.jpg" alt="mama earth compact powder" />
+            <h3>Mamaearth Glow Full Coverage Compact </h3>
+            <div class="product-price">Rs.350</div>
+            <p class="short-desc">.</p> Keep your Radiant skin  all day.
+            <button onclick="showDetails('details5')">More Details</button>
+            <p id="details5" class="details" style="display:none;">
+              	Natural, Radiant and only for Oily Skin
+            </p>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Glow Beauty Products is dedicated to providing natural and effective skincare solutions.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: glowbeautyskin@.com</p>
+        <p>Phone: +91 77664 87662</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Glow Beauty Products . Made by Asami</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
